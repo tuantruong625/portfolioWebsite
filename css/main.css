@@ -5,7 +5,7 @@
     font-family: 'Pragati Narrow', sans-serif;
 }
 
-h1, h2, h3 , h4, h5, h6, p {
+h1, h2, h4, h5, h6, p {
     margin-bottom: 20px;
 }
 
@@ -52,6 +52,12 @@ a{
     display: inline-block;
 }
 
+#arrow{
+    height: auto;
+    width: 50px;
+    margin-top: 300px;
+}
+
 .section {
     height: 100%;
     background-size: cover;
@@ -70,6 +76,8 @@ a{
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
+    min-height: 100%;
+    min-width: 100%;
     overflow: hidden;
 }
 
@@ -101,12 +109,19 @@ a{
 }
 
 .Projects {
-    background-image: #fff;
+    background: url(../images/projectPage.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .Skills {
     background-color: #031924;
+    
+}
+.Image{
+    background: url(../images/forestMinimalist.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 

@@ -10,5 +10,25 @@ function setBindings(){
         $("html body").animate({
             scrollTop: $("#" + sectionID).offset().top
         }, 1000)
+
+        
+
     })
+
+    
+
+
+};
+
+function setBindings(){
+    $("a").click(function(e){
+        e.preventDefault();
+        var sectionID = e.currentTarget.id + "Section";
+        
+        $("html body").animate({
+            scrollTop: $("#" + sectionID).offset().top
+        }, 1000)
+ 
+    })
+
 };
