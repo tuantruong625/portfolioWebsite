@@ -10,14 +10,7 @@ function setBindings(){
         $("html body").animate({
             scrollTop: $("#" + sectionID).offset().top
         }, 1000)
-
-        
-
     })
-
-    
-
-
 };
 
 function setBindings(){
@@ -28,7 +21,24 @@ function setBindings(){
         $("html body").animate({
             scrollTop: $("#" + sectionID).offset().top
         }, 1000)
- 
     })
-
 };
+
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    autoHeight: true,
+    autoWidth: true,
+    margin:20,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
