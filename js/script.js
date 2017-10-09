@@ -27,7 +27,7 @@ function setBindings(){
 
 $('.owl-carousel').owlCarousel({
     loop:false,
-    autoHeight: true,
+    autoHeight: false,
     autoWidth: true,
     margin:20,
     nav:false,

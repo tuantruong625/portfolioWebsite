@@ -65,8 +65,7 @@ a{
 }
 
 .subSection {
-    height: 50%;
-    
+    height: 50%;  
 }
 
 .Home {
@@ -92,15 +91,30 @@ a{
     text-align: center;
 }
 
-#innerTwo{
+.innerContent{
     height: 20%;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     position: relative;
     color: #fff;
     font-size: 30px;
     text-align: center;
 
+}
+#innerFooterText{
+    height: 20%;
+    margin: 50px;
+    padding-left: 500px;
+    color: #fff;
+    font-size: 30px;
+    float: left;
+}
+
+#innerFooterIcon{
+    height: 20%;
+    margin: 45px;
+    padding-right: 500px;
+    float: right;
 }
 .projectText {
     font-size: 50px;
@@ -125,8 +139,22 @@ a{
     padding-top: 300px;
 }
 
+.icon {
+    height: 110px;
+    width: auto;
+    padding: 8px;
+}
+
+.footerIcon {
+    height: 60px;
+    width: auto;
+    float: right;
+    
+}
+
 .About {
     background-color: #031924;
+    background-attachment: fixed;
 }
 
 .Projects {
@@ -136,7 +164,7 @@ a{
 }
 
 .Skills {
-    background-color: #031924;
+    background-color: rgba(3,25,36, .75)
     
 }
 .Image{
@@ -147,7 +175,8 @@ a{
 }
 
 .Contact {
-    height: 10%;
+    height: 15%;
+    width: 100%;
     background-color: grey;  
 }
 
@@ -179,7 +208,8 @@ a{
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 10px; }
+  margin-top: -50px;
+}
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -189,15 +219,15 @@ a{
     zoom: 1;
     *display: inline; }
     .owl-theme .owl-dots .owl-dot span {
-      width: 10px;
-      height: 10px;
+      width: 20px;
+      height: 20px;
       margin: 5px 7px;
-      background: #D6D6D6;
+      background: grey;
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-      background: #869791; }
+      background: #FFF; }
 
 
