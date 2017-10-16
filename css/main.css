@@ -5,9 +5,9 @@
     font-family: 'Pragati Narrow', sans-serif;
 }
 
-h1, h2, h4, h5, h6, p {
+/*h1, h2,h3, h4, h5, h6, p {
     margin-bottom: 20px;
-}
+}*/
 
 nav {
     position: fixed;
@@ -55,7 +55,7 @@ a{
 #arrow{
     height: auto;
     width: 50px;
-    margin-top: 300px;
+    
 }
 
 .section {
@@ -80,7 +80,18 @@ a{
     overflow: hidden;
 }
 
-#inner {
+#innerLanding {
+    height: 25%;
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+    top: 20%;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.inner {
     height: 20%;
     margin: 0 auto;
     width: 50%;
@@ -89,6 +100,16 @@ a{
     color: #fff;
     font-size: 40px;
     text-align: center;
+}
+#innerAbout{
+    height: 20%;
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 50px;
 }
 
 .innerContent{
@@ -99,22 +120,63 @@ a{
     color: #fff;
     font-size: 30px;
     text-align: center;
+    
 
 }
 #innerFooterText{
-    height: 20%;
-    margin: 50px;
-    padding-left: 500px;
+    height: 5%;
+    margin: auto;
+    padding-left: 600px;
     color: #fff;
-    font-size: 30px;
-    float: left;
+    font-size: 20px;
+    
+}
+input{
+    height: 100%;
+    padding: 10px 10px;
+    display: inline-block;
+}
+input[type="text"]{
+    width: 154px;
+}
+input[type="submit"]{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 3px;
+}
+input[type="email"]{
+    width:312px;
+    margin-bottom: 10px;
+}
+#formHeader{
+    padding-bottom: 30px;
 }
 
+
+textarea{
+    padding: 2px 10px;
+    width:312px;
+    height: 70px;
+    resize: none;
+}
+
+
+
 #innerFooterIcon{
+    margin: 0 auto;
     height: 20%;
-    margin: 45px;
-    padding-right: 500px;
     float: right;
+    position: relative;
+    right: 650px;
+    padding: 10px;   
+        
 }
 .projectText {
     font-size: 50px;
@@ -167,17 +229,17 @@ a{
     background-color: rgba(3,25,36, .75)
     
 }
-.Image{
-    background: url(../images/olafur.jpg);
+.Experience{
+    background: url(../images/blackmin.jpg);
     background-size: cover;
     background-attachment: fixed;
     
 }
 
 .Contact {
-    height: 15%;
+    height: 30%;
     width: 100%;
-    background-color: grey;  
+    background-color: black;  
 }
 
 .owl-theme .owl-nav {

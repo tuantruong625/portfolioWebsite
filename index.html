@@ -1,7 +1,7 @@
-
 <html>
     <head lang="en">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/owl.carousel.css">
@@ -14,8 +14,9 @@
         <nav>
             <ul>
                 <a href="#"><img id="logo" src="images/Personal%20Logo%20Circle.png" alt="logo"></a>
-                <li><a id="Contact" href="#Contact">Contact</a></li>
+                <li><a id="Contact" href="#Contact">Contact (Hire Me)</a></li>
                 <li><a id="Skills" href="#Skills">Skills</a></li>
+                <li><a id="Experience" href="#Experience">Experience</a></li>
                 <li><a id="Projects" href="#Projects">Projects</a></li>
                 <li><a id="About" href="#About">About</a></li>
                 <li><a id="Home" href="#Home">Home</a></li>
@@ -23,15 +24,16 @@
         </nav>
         
         <div id="HomeSection" class="section Home">
-            <div id="inner">
-                <p>Hi,<br>my name is Tuan Truong <br>& I am in search of a co-op placement.</p>
+            <div id="innerLanding">
+                <img src="images/CircleHeadshot.png" alt="headshot">
+                <p>Hello, I'm Tuan Truong <br>student of the IT: Innovation & Design Program at Conestoga College seeking a 4-16 month co-op placement, preferred in web development, UI/UX Design....(but not limited too).</p>
                 <a id="About" href="#About"><img src="images/whiteArrow.png" id="arrow" alt="White Arrow"></a>
             </div>
         </div>
         <div id="AboutSection" class="subSection About">
-            <div class="innerContent">
-                <h3>About Me</h3>
-                <p>My name is Tuan. I'm a student enrolled in the Infomation Technology : Innovation & Design Program at Conestoga College. I'm searching for an oppurtiniuity to learn and expand my knowledge, while helping your company.... of course. In my spare time I enjoy learning new skills from an array of subjects, like anything technology related to fixing my car to a new song on the guitar. Whatever it is, the process of learning is what gets me up every morning (other than the smell of bacon). If I am what you are looking for, lets get in touch!!</p>
+            <div id="innerAbout">
+                
+                <p>About me.<br>I'm searching for an oppurtiniuity to grow as a developer and expand my knowledge, while helping your company.... of course. In my spare time I enjoy learning new skills from an array of subjects, from anything technology related to fixing my car to a new song on the guitar. Whatever it is, the process of learning is what gets me up every morning (other than the smell of bacon). So, regrading my co-op intership. I would like to focus on front-end web development, and UI/UX design but this does not mean I am limit to these. If I am what you are looking for, lets get in touch!!<br>....and below are samples of my works.</p>
             </div>
             
         </div>
@@ -89,17 +91,36 @@
             </div>
         </div>
 
-        <div id="imageSection" class="section Image">
-            
+        <div id="ExperienceSection" class="section Experience">
+            <div id="innerAbout">
+                <h1>Experience - Under Construction</h1>
+            </div>
         </div>
         <footer id="ContactSection" class="subSection Contact">
             <div id="innerFooterText">
-                <p>Contact | Phone : 519-503-3642</p>
+                <h2 id="formHeader">Contact Me (Hire Me)</h2>
+                <form action="mailto:ttruong7293@conestogac.on.ca" method="post" enctype="text/plain">
+                        <input type="text" name="Subject" placeholder="Subject">
+                        <input type="text" name="Name" placeholder="Name">
+                        <br>
+                        <input type="email" name="Email" placeholder="Email">
+                        <br>
+                        <textarea rows="10" cols="20" name="Message" placeholder="Enter your Message Here"></textarea>
+                        <br>
+                        <input type="submit" name="submit" value="Send" >
+                    
+                </form>
+                
             </div>
             <div id="innerFooterIcon">
+                <br>
                 <a href="https://www.linkedin.com/in/tuanntruong/" onclick="window.open('https://www.linkedin.com/in/tuanntruong/')"><img src="iconskills/linkedinIcon.png" class="footerIcon" alt="Linkden Icon"></a>
+                <br>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vTesJQxtRiCWI_LP0rz6HNQhFOEMWVwvKzjEG5KCGDNmTMMZhKKnLugtSYodqO-c0UJI1PMo7bn0TtD/pub" onclick="window.open('https://docs.google.com/document/d/e/2PACX-1vTesJQxtRiCWI_LP0rz6HNQhFOEMWVwvKzjEG5KCGDNmTMMZhKKnLugtSYodqO-c0UJI1PMo7bn0TtD/pub')"><img src="iconskills/resumeIcon.png" class="footerIcon" alt="Email Icon"></a>
+                <br>
                 <a href="mailto:ttruong7293@conestogac.on.ca" onclick="window.open('mailto:ttruong7293@conestogac.on.ca')"><img src="iconskills/emailIcon.png" class="footerIcon" alt="Email Icon"></a>
             </div>
+            
         </footer>
         <script src="lib/jquery-3.2.1.min.js"></script>
         <script src="lib/owl.carousel.min.js"></script>
