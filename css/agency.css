@@ -11,7 +11,8 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fff; }
+  color: grey;
+    }
   a.active, a:active, a:focus, a:hover {
     color: grey; }
 
@@ -26,6 +27,11 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+#pLinks{
+    font-style: italic;
+    text-decoration: underline;
+}
 
 section {
   padding: 100px 0; }
@@ -480,7 +486,7 @@ header.masthead {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/contactImage.jpg");
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
