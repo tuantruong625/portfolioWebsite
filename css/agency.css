@@ -5,7 +5,9 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+   }
 
 p {
   line-height: 1.75; }
@@ -53,31 +55,39 @@ section {
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700; }
-
+  font-weight: 700;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                   0px 8px 13px rgba(0,0,0,0.1),
+                   0px 18px 23px rgba(0,0,0,0.1); }
+.btn-project{
+  color: black;
+}
 .btn-primary {
   color: white;
-  border-color: black;
-  background-color: grey; }
+  border-color: transparent;
+  background-color: transparent;
+   }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: black;
-    background-color: grey; }
+    border-color: white;
+     }
   .btn-primary:hover {
     color: white;
-    text-decoration: underline; }
+    background-color: transparent;
+    border-color: grey;
+     }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: blue;
-    background-color: blue; }
+    border-color: white;
+     }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
       border-color: #b48b01;
-      background-color: #dcab01; }
+       }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -89,7 +99,7 @@ section {
     background-color: #fed136; }
   .btn-primary .badge {
     color: #fed136;
-    background-color: white; }
+     }
 
 .btn-xl {
   font-size: 18px;
@@ -183,13 +193,19 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                   0px 8px 13px rgba(0,0,0,0.1),
+                   0px 18px 23px rgba(0,0,0,0.1); }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                   0px 8px 13px rgba(0,0,0,0.1),
+                   0px 18px 23px rgba(0,0,0,0.1); }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
